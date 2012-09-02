@@ -39,7 +39,7 @@ Open up your browser and go to http://localhost:3000
 You can setup a Heroku account for free [https://devcenter.heroku.com/articles/quickstart](https://devcenter.heroku.com/articles/quickstart)
 
     heroku create
-    heroku addons:add sendgrid:starter #Free addon used for devise emails
+    heroku addons:add sendgrid:starter #Free addon used for device emails
     git push heroku master
     heroku run rake db:migrate
     heroku run rake db:seed
